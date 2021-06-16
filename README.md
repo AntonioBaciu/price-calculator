@@ -1,4 +1,4 @@
-# price-calculator
+# Price Calculator
 
 __Working Steps:__
 * Research MVC
