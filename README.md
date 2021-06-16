@@ -1,6 +1,6 @@
 # price-calculator
 
-__Working Steps:
+__Working Steps:__
 * Research MVC
 * Review PHP OOP
 * Import the SQL file to the Data Base
