@@ -25,7 +25,7 @@ class Product
 
     public function getPrice(): int
     {
-        return $this->price;
+        return $this->price / 10;
     }
 
 }

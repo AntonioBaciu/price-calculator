@@ -109,6 +109,7 @@ class Customer
                 $finalPrice = $product->getPrice() - $this->getFixDiscount() - $this->totalFixDiscount;
             }
         }
+
         $result[] = array('finalPrice' => $finalPrice, 'fixGroup' => $this->fixGroup, 'varGroup' => $this->varGroup, "customer" => $this);
 
         return $result;
