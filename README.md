@@ -23,3 +23,18 @@ Make a price calculator with the following entities:
 - Customer (Firstname, Lastname)
 - A customer group (Name)
 - A product (product name, price in cents)
+
+A customer belongs to a customer group, which can also belong to another group (infinite).
+You don't need to worry for infinite loops in this exercise.
+
+Both a customer and a group can have a discount, which can be a percentage or a fixed amount. 
+
+#### To calculate the price:
+- For the customer group: In case of variable discounts look for highest discount of all the groups the user has.
+- If some groups have fixed discounts, count them all up.
+- Look which discount (fixed or variable) will give the customer the most value.
+- Now look at the discount of the customer.
+- In case both customer and customer group have a percentage, take the largest percentage.
+- First subtract fixed amounts, then percentages!
+- A price can never be negative.
+
